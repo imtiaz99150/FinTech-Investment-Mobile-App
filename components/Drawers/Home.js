@@ -35,14 +35,45 @@ function CustomDrawerContent(props) {
         option={{ headerShown: true }}
       />
       <DrawerItem
-        label="Toggle drawer"
+        label="Profile"
         onPress={() => props.navigation.toggleDrawer()}
         inactiveTintColor="red"
         inactiveBackgroundColor="#eee"
         activeBackgroundColor="#992"
       />
       <Button
-        title="Go somewhere"
+        title="Plans"
+        onPress={() => {
+          props.navigation.navigate("Test");
+        }}
+      />
+       <Button
+        title="Home"
+        onPress={() => {
+          props.navigation.navigate("Test");
+        }}
+      />
+       <Button
+        title="Account"
+        onPress={() => {
+          props.navigation.navigate("Test");
+        }}
+      />
+      
+       <Button
+        title="Voulet"
+        onPress={() => {
+          props.navigation.navigate("Test");
+        }}
+      />
+       <Button
+        title="Settings"
+        onPress={() => {
+          props.navigation.navigate("Test");
+        }}
+      />
+       <Button
+        title="LogOut"
         onPress={() => {
           props.navigation.navigate("Test");
         }}

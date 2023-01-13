@@ -88,7 +88,7 @@ const Home = (props) => {
 
               <View style={styles.guide_description}>
                 <Font size={14} color={"#4F4F4F"} spacing={1}>
-                  This is how you set your foot for 2020 Stock market
+                  This is how you set your foot for 2023 Stock market
                   recession.What’s next...
                 </Font>
               </View>
@@ -115,7 +115,7 @@ const Home = (props) => {
               <View style={styles.guide_description}>
                 <Font size={14} color={"#4F4F4F"} spacing={1}>
                   What do you like to see? It’s a very different market from
-                  2018. The way...
+                  2022. The way...
                 </Font>
               </View>
             </View>
